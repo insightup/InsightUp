@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    margin-left:0px;
+    text-align:center;
+}
+
+.header{
+    color: black;
+    text-align:center;
+    display: inline-block;
+    vertical-align: middle;
+}
+#account{
+    vertical-align: middle;
+    float: right;
+    margin-top:0vw;
+    margin-bottom:0px;
+}
+#accountTag{
+    vertical-align: middle;
+    text-align: center;
+    margin:0px;
+    font-size:90%;
+}
+#loginButton{
+    height: 3vw;
+    width: 3vw;
+    margin-top: 0px;
+    margin-left: auto;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}  
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.linkBanner{
+    background-color:darkgray;
+    width: 100%;
+    height: min-content;
+}
+
+.linkButton{
+    background-color:rgb(100,100,100);
+    margin:auto;
+    border-width:0px;
+    color:white;
+    transition-duration:0.2s;
+    font-size:2.5vw;
+    float:left;
+    width:20%;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.linkButton:hover{
+    background-color:rgb(30,30,30);
+    border-radius:0%;
+}
+
+.verticalCenter {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}

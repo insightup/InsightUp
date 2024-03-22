@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="headerBox">
+      <h1 class="header">Welcome to InsightUp!</h1>
+      <div id="account">
+        <img src="images/account.png" id="loginButton"/>
+        <h6 id="accountTag">Account</h6>
+      </div>
+      </div>
+      <!-- Link Banner -->
+      <div class="linkBanner">
+        <button class="linkButton" id="testButton">Test</button>
+        <button class="linkButton" id="testResultsButton">Test Results</button>
+        <button class="linkButton" id="resourceButton">Resources</button>
+        <button class="linkButton" id="treatmentButton">Treatment</button>
+        <button class="linkButton" id="aboutButton">About Us</button>
+      </div>
+  <h1 class="header">Please Answer the Following Questions</h1>
+  <form action="testResults.html" name="test" method="GET">
+    <h4 class="questions">Question 1</h4>
+    <input type="radio" id="q1.1" name="question1" value="Answer 1" required>
+    <label for="q1.1">Answer 1</label><br>
+    <input type="radio" id="q1.2" name="question1" value="Answer 2" required>
+    <label for="q1.2">Answer 2</label><br><br>
+
+    <h4 class="questions">Question 2</h4>
+    <input type="radio" id="q2.1" name="question2" value="Answer 3" required>
+    <label for="q2.1">Answer 3</label><br>
+    <input type="radio" id="q2.2" name="question2" value="Answer 4" required>
+    <label for="q2.2">Answer 4</label><br><br>
+
+    <h4 class="questions">Question 3</h4>
+    <input type="radio" id="q3.1" name="question3" value="Answer 5" required>
+    <label for="q3.1">Answer 5</label><br>
+    <input type="radio" id="q3.2" name="question3" value="Answer 6" required>
+    <label for="q3.2">Answer 6</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+  <h5 id="bad"></h5>
+  <a href="index.html">Home</a>
+  <script src="test.js"></script>
+  <script src="general.js"></script>
+  <script src="keyUpdate.js"></script>
+  </body>
+</html>

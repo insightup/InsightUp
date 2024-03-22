@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>InsightUp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body onload="launch()">
+    <div class="headerBox">
+        <h1 class="header" id="title">Welcome to InsightUp!</h1>
+        <div id="account">
+          <img src="images/account.png" id="loginButton"/>
+          <h6 id="accountTag">Account</h6>
+        </div>
+        </div>
+        <!-- Link Banner -->
+        <div class="linkBanner">
+          <button class="linkButton" id="testButton">Test</button>
+          <button class="linkButton" id="testResultsButton">Test Results</button>
+          <button class="linkButton" id="resourceButton">Resources</button>
+          <button class="linkButton" id="treatmentButton">Treatment</button>
+          <button class="linkButton" id="aboutButton">About Us</button>
+        </div>
+    <div class="Base">
+    <h2>Welcome!</h2>
+    <h4>Either enter login key, or create account below</h4>
+    <form onsubmit="keyEnter()" method="get">
+        <label for="key">Enter Key:</label>
+        <input type="text" id="key" name="key">
+        <input type="submit" value="Log in">
+    </form>
+    <br>
+    <br>
+    <form onsubmit="infoEnter()" method="get">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+        <br>
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+        <br>
+        <br>
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip">
+        <br>
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+    <h4 id="keyOutput"></h4>
+    <button id="copy">Copy</button>
+    <button id="logout">Logout</button>
+    </div>
+<script src="general.js"></script>
+<script src="login.js"></script>
+<script src="keyUpdate.js"></script>
+</body>
+</html>
